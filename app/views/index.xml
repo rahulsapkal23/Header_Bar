@@ -1,7 +1,12 @@
 <Alloy>
-	<NavigationWindow id="Navwin">
-		<Window id="Indexwin" title="Red Window" backgroundColor="red">
-			<Button id="button" onClick="openBlueWindow">Open Blue Window</Button>
-		</Window>
-	</NavigationWindow>
+	<Window id="win" top="100" layout="vertical">
+		<Label id=date>dfjds</Label>
+		<Label id=min>dfjds</Label>
+		<Label id=min20>dfjds</Label>
+		<Label id=sec>dfjds</Label>
+		<Label id=min1>dfjds</Label>
+		<Label id=min120>dfjds</Label>
+		<Label id=sec1>dfjds</Label>
+
+	</Window>
 </Alloy>
