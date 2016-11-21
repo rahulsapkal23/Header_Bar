@@ -1,6 +1,14 @@
-function openBlueWindow(e) {
-    var win3 = Alloy.createController('bluewin').getView();
-    $.win1.openWindow(win3);
-}
+if (Ti.Platform.osname == "android") {
+    function openBlueWindow(e) {
+        var bluewindow = Alloy.createController('bluewin').getView();
+        $.Indexwin.openWindow(bluewindow);
+    }
+    $.Indexwin.open();
 
-$.win1.open();
+} else {
+    function openBlueWindow(e) {
+        var bluewindow = Alloy.createController('bluewin').getView();
+        $.Navwin.openWindow(bluewindow);
+    }
+    $.Navwin.open();
+}

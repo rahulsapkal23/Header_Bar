@@ -1,3 +1,3 @@
 function closeWindow() {
-    $.win3.close();
+    $.bluewindow.close();
 }
